@@ -10,6 +10,12 @@ public class StringDemo {
 		
 		String first = "coding"; 
 		System.out.println(first+" "+"everybody");
+		
+	    int c = 100;
+	    System.out.println(c + 10);
+	    System.out.println((c + 10) / 10);
+	    System.out.println(((c + 10) / 10) - 10);
+	    System.out.println((((c + 10) / 10 ) - 10) * 10);
 	}
 
 }
