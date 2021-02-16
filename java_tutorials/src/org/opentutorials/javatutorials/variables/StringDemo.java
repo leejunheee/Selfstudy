@@ -11,7 +11,7 @@ public class StringDemo {
 		String first = "coding";
 		System.out.println(first + " " + "everybody");
 
-		int c = 1000;
+		int c = 10000;
 		System.out.println(c + 10);
 		System.out.println((c + 10) / 10);
 		System.out.println(((c + 10) / 10) - 10);
