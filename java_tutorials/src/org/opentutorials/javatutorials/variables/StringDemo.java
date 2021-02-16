@@ -6,16 +6,22 @@ public class StringDemo {
 		String a, b;
 		a = "coding";
 		b = "everybody";
-		System.out.println(a+b);
+		System.out.println(a + b);
+
+		String first = "coding";
+		System.out.println(first + " " + "everybody");
+
+		int c = 1000;
+		System.out.println(c + 10);
+		System.out.println((c + 10) / 10);
+		System.out.println(((c + 10) / 10) - 10);
+		System.out.println((((c + 10) / 10) - 10) * 10);
+
+		int d = c + 10;
+		System.out.println(d / 10);
 		
-		String first = "coding"; 
-		System.out.println(first+" "+"everybody");
-		
-	    int c = 100;
-	    System.out.println(c + 10);
-	    System.out.println((c + 10) / 10);
-	    System.out.println(((c + 10) / 10) - 10);
-	    System.out.println((((c + 10) / 10 ) - 10) * 10);
+		int e = d / 10;
+		System.out.println(e - 10);
 	}
 
 }
