@@ -6,7 +6,7 @@ public class DoubleDemo {
 		double a;
 		a = 1.1;
 		
-		System.out.println(a+1.1);
+		System.out.println(a+2.1);
 	}
 
 }
