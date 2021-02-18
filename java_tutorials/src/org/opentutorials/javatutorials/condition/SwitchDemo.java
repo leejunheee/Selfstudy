@@ -99,7 +99,12 @@ public class SwitchDemo {
 			break;
 		default:
 			System.out.println("default");
-			// 스위치문 안에 숫자에 없는 조건을 넣으면 디폴트정의가 실행 
+			/* 스위치문 안에 숫자에 없는 조건을 넣으면 디폴트정의가 실행 
+			// switch 문을 사용할 때 한가지 주의 할 것은 switch의 
+			//조건으로는 몇가지 제한된 데이터 타입만을 사용할 수 있다. 
+			//byte, short, char, int, enum, String, Character, 
+			 Byte, Short, Integer */
+			
 
 		}
 
