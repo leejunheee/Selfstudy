@@ -1,24 +1,21 @@
 package org.opentutorials.javatutorials.condtionaloperator;
 
-public class AndDemo {
+public class OrDemo {
 
 	public static void main(String[] args) {
-		if (true && true) {
+		if (true || true) {
 			System.out.println(1);
 		}
-
-		if (true && false) {
+		if (true || false) {
 			System.out.println(2);
 		}
-
-		if (false && true) {
+		if (false || true) {
 			System.out.println(3);
 		}
-
-		if (false && false) {
+		if (false || false) {
 			System.out.println(4);
 		}
+
 	}
 
 }
-// && 의 경우 둘다 참 일경우만 실행 
