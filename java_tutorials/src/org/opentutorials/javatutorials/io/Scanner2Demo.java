@@ -9,6 +9,7 @@ public class Scanner2Demo {
 		while(sc.hasNextInt()) {
 			System.out.println(sc.nextInt()*1000);
 		}
+		sc.close();
 	}
 
 }
