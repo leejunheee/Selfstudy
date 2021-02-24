@@ -9,7 +9,7 @@ class Calculator{ //class를 통해 calculator라는 설계도를 컴퓨터에�
 		this.right = right; // this 는 
 	}
 	
-	public void set (String l, String r) {
+	public void set (String l, String r) { 
 		this.l = l;
 		this.r = r;
 	}
