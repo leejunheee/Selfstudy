@@ -7,20 +7,22 @@ abstract class Calculator {
 		this.left = left;
 		this.right = right;
 	}
+	int _sum(){
+		return this.left + this.right;
+	}
 
 	public abstract void sum();
-
 	public abstract void avg();
 
 	public void run() {
 		sum();
-		avg();
+		avg(); //추상 클래스
 	}
 }
 
 class CalculatorDecoPlus extends Calculator {
 	public void sum() {
-		System.out.println("+sum :" + (this.left + this.right));
+		System.out.println("+ sum :" + _sum());
 	}
 
 	public void avg() {
@@ -46,8 +48,8 @@ public class CalculatorDemo {
 		c1.run();
 		
 		CalculatorDecoMinus c2 = new CalculatorDecoMinus();
-		c1.setOprands(10, 20);
-		c1.run();
+		c2.setOprands(10, 20);
+		c2.run();
 	}
 
 }
