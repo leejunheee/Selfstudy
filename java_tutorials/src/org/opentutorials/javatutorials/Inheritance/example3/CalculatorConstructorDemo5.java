@@ -30,7 +30,7 @@ class Calculator {
 		}
 		
 		public void substract() {
-			System.out.println(this.left = this.right);
+			System.out.println(this.left - this.right);
 		}
 	}
 	
